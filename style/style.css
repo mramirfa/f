@@ -1,0 +1,274 @@
+@font-face {
+  font-family: fr;
+  src: url(../src/font/egular.woff) format("woff");
+}
+@font-face {
+  font-family: fb;
+  src: url(../src/font/Bold.woff) format("woff");
+}
+.fb {
+  font-family: fb;
+  color: #38424d;
+}
+.fr {
+  font-family: fr;
+  color: #575b5f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: default;
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  cursor: pointer;
+}
+
+/* hed */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 20px 50px 1px rgb(0 0 0 / 5%);
+  padding: 17px;
+}
+nav .nav-right .nav-right-menu ul {
+  display: flex;
+  gap: 10px;
+}
+nav .nav-left img {
+  width: 35px;
+}
+.hide-menu,
+.show-menu {
+  display: none;
+}
+/* End hed */
+
+/* main */
+.df-aic {
+  display: flex;
+  align-items: center;
+}
+.w25 {
+  width: 25px;
+}
+main .main-col {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 65px;
+  margin: 30px auto;
+}
+main h4 {
+  font-family: fb;
+  color: #38424d;
+}
+main p {
+  font-family: fr;
+  color: #575b5f;
+}
+/* item1 */
+.slider-item1 {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  z-index: -1;
+}
+.slider-item1 img {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider-item1 img:first-child {
+  z-index: 1;
+}
+.slider-item1 img:nth-child(2) {
+  z-index: 0;
+}
+.navigation-button-item1 {
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+/* End item1 */
+
+/* item2 */
+.main-item2-col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.number-item p {
+  font-family: fb;
+  color: #38424d;
+}
+.number-item {
+  box-shadow: 0 0 10px -1px rgb(0 0 0 / 20%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px;
+  align-items: center;
+  row-gap: 10px;
+  border-radius: 12px;
+  width: 180px;
+}
+/* End item2 */
+
+main .main-item3-description {
+  width: 95%;
+  margin-right: 5px;
+}
+main .main-item4-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+.main-item5-description,
+.main-item7-description {
+  display: flex;
+  overflow-x: scroll;
+  padding: 15px 1px;
+}
+
+/* item6 */
+.main-item6 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.center {
+  text-align: center;
+}
+.bottom-item-title {
+  text-align: center;
+  padding-block: 5px;
+}
+.bottom-item-title p {
+  color: #38424d;
+  font-size: 18px;
+}
+.bottom-item {
+  padding: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.main-item6-title p {
+  font-size: 44px;
+  color: #38424d;
+  text-align: center;
+}
+.main-item6-description {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.bottom-item-img {
+  width: 155px;
+}
+.bottom-item-img img {
+  width: -webkit-fill-available;
+}
+/* End item6 */
+
+/* box */
+.bax {
+  width: 300px;
+  box-shadow: 0 0 13px -6px #777;
+  margin-inline: 5px;
+  border-radius: 7px;
+}
+.box-right {
+  padding: 2px;
+}
+.box-left {
+  padding: 3px 15px 10px 15px;
+}
+.img {
+  width: -webkit-fill-available;
+}
+.img img {
+  width: inherit;
+  border-radius: 5px;
+  pointer-events: none;
+}
+.box-left-title {
+  margin: 2px 0 10px 0;
+  text-align: center;
+}
+.box-left-title p {
+  color: #38424d;
+  font-size: 1.5rem;
+}
+.box-left-text p {
+  color: #747e88;
+  font-size: 1rem;
+  line-height: 25px;
+  text-align: center;
+}
+/* End box */
+
+/* footer */
+footer .footer-col {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px -20px 50px 1px rgb(0 0 0 / 5%);
+  padding-block: 30px;
+}
+footer ul {
+  margin-right: 12px;
+  margin-top: 3px;
+}
+footer ul li {
+  display: flex;
+  align-items: center;
+}
+footer ul li img {
+  width: 23px;
+}
+/* End footer */
+
+/* scrol */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #797373;
+}
+
+.main-item5-description::-webkit-scrollbar,
+.main-item7-description::-webkit-scrollbar {
+  width: auto;
+  height: 2px;
+}
+.main-item5-description::-webkit-scrollbar-thumb,
+.main-item7-description::-webkit-scrollbar-thumb {
+  background: #e9e6e6;
+}
+/* End scrol */
