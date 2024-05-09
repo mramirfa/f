@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <title>پروژه سایت</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaqeori.css">
+    <meta name="theme-color" content="#263238">
+</head>
+
+<body>
+
+    <div class="col" style="display:none"></div>
+
+    <header>
+        <nav>
+            <div class="nav-right">
+                <div class="show-menu"><img src="src/img/ico/togle.svg"></div>
+                <div class="nav-right-menu">
+                    <ul>
+                        <div class="hide-menu"><img src="src/img/ico/close.svg"></div>
+                        <li><a class="fr" href="#">محصولات</a></li>
+                        <li><a class="fr" href="#">پوشاک</a></li>
+                        <li><a class="fr" href="#">مواد غذایی</a></li>
+                        <li><a class="fr" href="#">لپتاب</a></li>
+                        <li><a class="fr" href="#">موبایل</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-center">
+                <img src="src/img/logo/logo.svg">
+            </div>
+            <div class="nav-left">
+                <img src="src/img/ico/search.svg">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-col">
+
+            <div class="main-item1">
+                <div class="slider-item1">
+                    <img src="src/img/Pictures/1.jpg">
+                    <img src="src/img/Pictures/2.jpg">
+                    <img src="src/img/Pictures/3.jpg">
+                </div>
+                <div class="navigation-button-item1">
+                    <span class="dot active" onclick="changeSlide(0)"></span>
+                    <span class="dot" onclick="changeSlide(1)"></span>
+                    <span class="dot" onclick="changeSlide(2)"></span>
+                </div>
+            </div>
+
+            <div class="main-item2">
+                <div class="main-item2-col">
+                    <div class="number-item">
+                        <p>کالاهای فروخته شده</p>
+                        <p id="number" data-target="1000"></p>
+                    </div>
+                    <div class="number-item">
+                        <p>کالاهای تخفیف دار</p>
+                        <p id="number" data-target="1500"></p>
+                    </div>
+                    <div class="number-item">
+                        <p>کالاهای ناموجود</p>
+                        <p id="number" data-target="450"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-item3">
+
+                <div class="main-item3-title df-aic">
+                    <img src="src/img/ico/tozih.svg" class="w25">
+                    <h4>توضیحات</h4>
+                </div>
+
+                <div class="main-item3-description">
+                    <p>لورم ایپسون لورم ایپسوم لورم ایپسون لورم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون
+                        لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون
+                        لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون
+                        لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون
+                        لورم ایپسوم ایپسوم لورم ایپسون لورم ایپسوم ایپسوم لورم ایپسون لورم</p>
+                </div>
+
+            </div>
+
+            <div class="main-item4">
+
+                <div class="main-item4-title df-aic">
+                    <img src="src/img/ico/sabade.svg" class="w25">
+                    <h4>محصولات</h4>
+                </div>
+
+                <div class="main-item4-description">
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-item5">
+
+                <div class="main-item5-title df-aic">
+                    <img src="src/img/ico/khadamat.svg" class="w25">
+                    <h4>خدمات</h4>
+                </div>
+
+                <div class="main-item5-description">
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-item6">
+                <div class="main-item6-title">
+                    <p class="fb">محصولات پرفروش</p>
+                </div>
+
+                <div class="center">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                        است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                </div>
+
+                <div class="main-item6-description">
+                    <div class="bottom-item">
+                        <div class="bottom-item-img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        <div class="bottom-item-title">
+                            <p class="fb">متن تستی</p>
+                        </div>
+                    </div>
+                    <div class="bottom-item">
+                        <div class="bottom-item-img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        <div class="bottom-item-title">
+                            <p class="fb">متن تستی</p>
+                        </div>
+                    </div>
+                    <div class="bottom-item">
+                        <div class="bottom-item-img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        <div class="bottom-item-title">
+                            <p class="fb">متن تستی</p>
+                        </div>
+                    </div>
+                    <div class="bottom-item">
+                        <div class="bottom-item-img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        <div class="bottom-item-title">
+                            <p class="fb">متن تستی</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-item7">
+
+                <div class="main-item7-title df-aic">
+                    <img src="src/img/ico/rezayat.svg" class="w25">
+                    <h4>رضایت مشتری</h4>
+                </div>
+
+                <div class="main-item7-description">
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bax">
+                        <div class="box-right">
+                            <div class="img"><img src="src/img/Pictures/bgc.jpg"></div>
+                        </div>
+                        <div class="box-left">
+                            <div class="box-left-title">
+                                <p class="fb">تایتل این کارد</p>
+                            </div>
+                            <div class="box-left-text">
+                                <p class="fr">توضیحات این کارد توضیحات این کارد توضیحات این کارد توضیحات این
+                                    کارد توضیحات
+                                    این کار.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-item8">
+
+                
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-col">
+
+            <div class="foter-top-right">
+                <p class="fb">لینک های سریع</p>
+                <ul>
+                    <li><a class="fr" href="#">لوازم آشپزخانه</a></li>
+                    <li><a class="fr" href="#">لواام جانبی موبایل</a></li>
+                    <li><a class="fr" href="#">مواد غذایی</a></li>
+                </ul>
+            </div>
+
+            <div class="foter-top-content">
+                <p class="fb">شبه های اجتماعی</p>
+                <ul>
+                    <li><img src="src/img/logo-app/insta.png"> <a class="fr" href="#">اینستاگرام</a></li>
+                    <li><img src="src/img/logo-app/tele.png"> <a class="fr" href="#">تلگرام</a></li>
+                </ul>
+            </div>
+
+            <div class="foter-top-left">
+                <p class="fb">تماس با ما</p>
+                <ul>
+                    <li><img src="src/img/ico/email.svg"> <a class="fr" href="mailto: abcd@gmail.com">ایمیل</a></li>
+                    <li><img src="src/img/ico/phone.svg"> <a class="fr" href="tel: 09999999999">تلفن</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
